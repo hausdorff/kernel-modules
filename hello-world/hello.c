@@ -8,7 +8,7 @@
  * (c) 2014 Alex Clemmer <clemmer.alexander@gmail.com>
  */
 
-#include <linux/module.h> 
+#include <linux/module.h>
 #include <linux/kernel.h>
 #include <linux/init.h>
 
@@ -20,14 +20,14 @@ MODULE_DESCRIPTION("A simple Hello World kernel module.");
 /* Initialization method -- runs when it's loaded by the kernel. */
 static int __init hello_world_init(void)
 {
-  printk(KERN_DEBUG "Hello World!\n");
-  return 0;
+	pr_debug("Hello World!\n");
+	return 0;
 }
 
 /* Cleanup method -- runs when the kernel takes it down. */
 static void __exit hello_world_cleanup(void)
 {
-  // nop
+	/* nop */
 }
 
 /* Register the initialization and cleanup functions. */
