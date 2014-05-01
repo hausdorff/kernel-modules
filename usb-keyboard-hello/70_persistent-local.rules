@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEMS=="usb", RUN+="/sbin/insmod /home/alex/oss/kernel-modules/usb-keyboard-hello/hello.ko"
+#ACTION=="remove", SUBSYSTEMS=="usb", RUN+="/bin/rmmod /home/alex/oss/kernel-modules/usb-keyboard-hello/hello.ko"

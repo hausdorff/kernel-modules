@@ -1,0 +1,6 @@
+# To build this:
+# * put the .rules file into /etc/udev/rules.d
+# * run `sudo /etc/init.d/udev restart` to hard-reload the rules.
+# * plugin device
+# * do something like `dmesg | tail -5` to see the message appear in the logs
+# * run something like `lsmod | grep hello` to confirm the module was mounted
