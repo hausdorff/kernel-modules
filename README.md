@@ -1,6 +1,6 @@
 # @hausdorff's Kernel modules
 
-Some kernel modules I have written or am writing. If you like this, you might be interested in [my fork of linux](https://github.com/hausdorff/linux), and the [build journal](https://github.com/hausdorff/kernel-build-journal) I use to keep track of how to build this fork of the kernel for selected distributions.
+Some kernel modules I have written or am writing. If you like this, you might be interested in [my fork of the linux kernel](https://github.com/hausdorff/linux), and the [build journal](https://github.com/hausdorff/kernel-build-journal) I use to keep track of how to build this fork of the kernel for selected distributions.
 
 # LICENSE
 
