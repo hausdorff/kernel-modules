@@ -89,6 +89,3 @@ static void __exit hello_world_cleanup(void)
 /* Register the initialization and cleanup functions. */
 module_init(hello_world_init);
 module_exit(hello_world_cleanup);
-
-
-
